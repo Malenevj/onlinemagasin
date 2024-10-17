@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+</head>
+<body>
+    <header>
+        <section class="head-container">
+            <a href="index.html">
+                <img src="img/skinwiselogo.png" alt="logo" class="mitlogo">
+            </a>
+            <nav class="navigation-wrapper">
+                <ul class="navigation-menu">
+                   <li class="dropdown">
+                       <button class="dropbtn">Hudtyper</button>
+                       <ul class="dropdown-content">
+                           <li><a href="artikel1.html">De 5 Hudtyper</a></li>
+                           <li class="sub-dropdown">
+                               <a href="#">Hudtyper: Dybdegående guide</a>
+                               <ul class="sub-dropdown-content">
+                                   <li><a href="#">Normal hudtype</a></li>
+                                   <li><a href="#">Tør hudtype</a></li>
+                                   <li><a href="#">Kombineret hudtype</a></li>
+                                   <li><a href="#">Sensitiv hudtype</a></li>
+                                   <li><a href="#">Olieret hudtype</a></li>
+                               </ul>
+                           </li>
+                       </ul>
+                   </li>
+                   <li class="dropdown">
+                       <button class="dropbtn">Ingredienser</button>
+                       <ul class="dropdown-content">
+                           <li><a href="">De mest populære ingredienser</a></li>
+                           <li><a href="artikel3.html">Ingrediens kombination</a></li>
+                       </ul>
+                   </li>
+                   <li class="dropdown">
+                       <button class="dropbtn">SU-venlig hudplejerutine</button>
+                       <ul class="dropdown-content">
+                           <li><a href="artikel2.html">Rutine til normal hudtype</a></li>
+                           <li><a href="">Rutine til tør hudtype</a></li>
+                           <li><a href="">Rutine til kombineret hudtype</a></li>
+                           <li><a href="">Rutine til sensitive hudtype</a></li>
+                           <li><a href="">Rutine til olieret hudtype</a></li>
+                       </ul>
+                   </li>
+                   <li class="dropdown">
+                       <button class="dropbtn">Guides & tips</button>
+                       <ul class="dropdown-content">
+                           <li><a href="">Ansigtspleje</a></li>
+                           <li><a href="negle.html">Negle</a></li>
+                           <li><a href="">Hår</a></li>
+                           <li><a href="">Solcreme</a></li>
+                           <li><a href="">Krop</a></li>
+                           <li><a href="">Makeup</a></li>
+                       </ul>
+                   </li>
+                   <li class="dropdown">
+                       <button class="dropbtn">Om os</button>
+                       <ul class="dropdown-content">
+                           <li><a href="kontakt.html">Skriv til os</a></li>
+                           <li><a href="">Historie</a></li>
+                       </ul>
+                   </li>
+               </ul>
+           </nav>
+       </section>
+   </header>
+
+   <main>
+       <section class="kontakt_os_tekst">
+           <h1>Få personlig rådgivning om hudpleje - skriv til os i dag</h1>
+           <p>Har du spørgsmål om hudpleje, eller er du i tvivl om noget? Uanset om det handler om produkter, rutiner eller hvordan du bedst plejer din hud, er du altid velkommen til at skrive til os.</p>
+       </section>
+       <form action="submit.php" method="post">
+           <fieldset class="form-row">
+               <section class="form-group">
+                   <label for="name">Navn</label>
+                   <input type="text" id="name" name="name" required>
+               </section>
+               <section class="form-group">
+                   <label for="email">E-mail</label>
+                   <input type="email" id="email" name="email" required>
+               </section>
+           </fieldset>
+           <label for="message">Spørgsmål</label>
+           <textarea id="message" name="message" rows="6" required></textarea>
+           <input type="submit" value="Send">
+       </form>
+       <section class="billede_kontakformular">
+           <img src="img/billede_kontakformular.png" alt="billede_af_produkter">
+       </section>
+   </main>
+
+   <footer class="footer">
+       <section>
+           <h4 class="skinwise">SkinWise</h4>
+           <p>E-mail: skinwise@gmail.com</p>
+           <p>www.skinwise.com</p>
+       </section>
+       <section class="page_footer_section">
+           <p>Find os her</p>
+           <section class="social_icons">
+               <figure>
+                   <img src="img/facebooklogo.png" class="some_image" alt="Facebook">
+               </figure>
+               <figure>
+                   <img src="img/tiktok-logo-png.png" class="some_image" alt="tiktok">
+               </figure>
+           </section>
+       </section>
+   </footer>
+</body>
+</html>
